@@ -1,0 +1,7 @@
+- http://codepen.io/GreenSock/pen/bdrjjO/?editors=1010#0
+- https://codepen.io/kunakos/pen/VYPBVX
+- https://codepen.io/munkholm/pen/EaZJQE
+- https://css-tricks.com/svg-line-animation-works/
+- https://jakearchibald.com/2013/animated-line-drawing-svg/
+- http://tympanus.net/Development/SVGDrawingAnimation/
+- http://opentype.js.org/
