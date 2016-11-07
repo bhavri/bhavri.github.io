@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+```html
 <svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" id="svg2" height="9.6567mm" width="217.31mm" version="1.1" viewBox="0 0 770 34.216762">
  <metadata id="metadata7">
   <rdf:RDF>
@@ -15,7 +10,7 @@
   </rdf:RDF>
  </metadata>
  <g id="layer1" transform="translate(10.5 -519.75)" stroke="#000" fill="none">
-  
+
   <g id="g3585" transform="translate(-11 532.36)">
    <path id="path3587" d="m5 4-2-2-2-3-1-2l-1-3v-3l1-2 1-1h2l1 1 1 2v3l-1 5-2 5-1 2-2 2-2 1h-2l-2-1-1-2v-2l1-1h2l2 1" transform="translate(9)"/>
    <path id="path3589" d="m-3 4 4-5 2-3 1-2 1-3v-2l-1-1-2 1-1 2-2 8-3 9-3 7-1 3v2l1 1 2-1 1-3 1-9 1 1h2l2-1 1-1 2-3" transform="translate(20)"/>
@@ -67,13 +62,4 @@
    <path id="path3701" d="m-3-8 1 1-1 1-1-1v-1l1-2 1-1 3-1h4l3 1 1 2v2l-1 2-1 1-6 2-2 1v2l1 1h2m3-14 2 1 1 2v2l-1 2-1 1-2 1m-6 10-1 1 1 1 1-1-1-1" transform="translate(761)"/>
   </g>
  </g>
-</svg>
-<script src="https://cdn.jsdelivr.net/vivus/0.3.2/vivus.min.js"></script>
-<script type="text/javascript">
-	function myCallback() {
-		console.log("is it working?");
-	}
-	new Vivus('svg2', {duration: 200}, myCallback);
-</script>
-</body>
-</html>
+ ```

@@ -1,11 +1,7 @@
-import TextToSVG from "text-to-svg";
-
-const textToSVG = TextToSVG.loadSync();
-
-console.log(textToSVG);
-const attributes = {fill: 'red', stroke: 'black'};
-const options = {x: 0, y: 0, fontSize: 72, anchor: 'top', attributes: attributes};
-
-const svg = textToSVG.getSVG('hello', options);
-
-console.log(svg);
+function myCallback() {
+  console.log("is it working?");
+}
+new Vivus('svg1', {
+  duration: 500,
+  type: 'oneByOne'
+}, myCallback);

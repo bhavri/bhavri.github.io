@@ -1,0 +1,10 @@
+/*@font-face {
+    font-family: ScriptinaPro;
+    src: url("./fonts/scriptina-pro/Scriptina_Pro.otf");
+}*/
+
+main {
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+}
