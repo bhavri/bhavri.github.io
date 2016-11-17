@@ -9,7 +9,7 @@
     });
 
     new Vivus('b1', {
-    duration: 400,
+    duration: 250,
     type: 'oneByOne',
     file: "exported-svgs/dear.svg"
     }, func1);
@@ -28,8 +28,49 @@
       duration: 500,
       type: 'oneByOne',
       file: "exported-svgs/2.svg"
+    }, func3);
+  }
+  
+  function func3() {
+    new Vivus('b4', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/3.svg"
+    }, func4);
+  }
+
+  function func4() {
+    new Vivus('b5', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/4.svg"
+    }, func5);
+  }
+
+  function func5(){
+    new Vivus('b6', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/5.svg"
+    }, func6);
+  }
+
+  function func6() {
+    new Vivus('b7', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/6.svg"
     });
   }
+
+  function func67 {
+    new Vivus('b8', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/7.svg"
+    });
+  }
+
 
   startLetter();
 })();
