@@ -63,7 +63,7 @@
     });
   }
 
-  function func67 {
+  function func7() {
     new Vivus('b8', {
       duration: 500,
       type: 'oneByOne',
