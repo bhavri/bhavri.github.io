@@ -60,7 +60,7 @@
       duration: 500,
       type: 'oneByOne',
       file: "exported-svgs/6.svg"
-    });
+    }, func7);
   }
 
   function func7() {
@@ -68,7 +68,94 @@
       duration: 500,
       type: 'oneByOne',
       file: "exported-svgs/7.svg"
+    }, func8);
+  }
+
+  function func8() {
+    new Vivus('b9', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/8.svg"
+    }, func9);
+  }
+
+  function func9() {
+    
+    new Vivus('b10', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p1.svg"
+    }, func10);
+  }
+
+  function func10() {
+    new Vivus('b11', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p2.svg"
+    }, func11);
+  }
+
+  function func11() {
+    new Vivus('b12', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p3.svg"
+    }, func12);
+  }
+
+  function func12() {
+    new Vivus('b13', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p4.svg"
+    }, func13);
+  }
+
+  function func13() {
+    new Vivus('b14', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p5.svg"
+    }, func14);
+  }
+
+  function func14() {
+    new Vivus('b15', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p6.svg"
+    }, func15);
+  }
+
+  function func15() {
+    new Vivus('b16', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p7.svg"
+    }, func16);
+
+    window.scrollTo(0,document.body.scrollHeight);
+  }
+
+  function func16() {
+    new Vivus('b17', {
+      duration: 400,
+      type: 'oneByOne',
+      file: "exported-svgs/p8.svg"
+    }, func17);
+
+    window.scrollTo(0,document.body.scrollHeight);
+  }
+
+  function func17() {
+    new Vivus('b18', {
+      duration: 200,
+      type: 'oneByOne',
+      file: "exported-svgs/p9.svg"
     });
+
+    window.scrollTo(0,document.body.scrollHeight);
   }
 
 

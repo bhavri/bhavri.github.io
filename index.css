@@ -3,6 +3,9 @@
     src: url("./fonts/scriptina-pro/Scriptina_Pro.otf");
 }*/
 
+body {
+  background: #F8ECC2;
+}
 main {
   padding: 5px 10px;;
   display: flex;
@@ -16,4 +19,40 @@ main {
 
 .b-svg {
   display: none;
+}
+
+#b10 {
+  width: 51%;
+}
+
+#b11 {
+  width: 50%;
+}
+
+#b12 {
+  width: 45%;
+}
+
+#b13 {
+  width: 55%;
+}
+
+#b14 {
+  width: 48%;
+}
+
+#b15 {
+  width: 58%;
+}
+
+#b16 {
+  width: 60%;
+}
+
+#b17 {
+  width: 57%;
+}
+
+#b18 {
+  width: 28%;
 }
