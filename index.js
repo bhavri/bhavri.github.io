@@ -1,22 +1,35 @@
-new Vivus('b1', {
-  duration: 400,
-  type: 'oneByOne',
-  file: "exported-svgs/dear.svg"
-}, func1);
+/**
+ * TODO: Use DRY and drawsvg plugin to make it a much small code file
+ */
 
+(function(){
+  function startLetter() {
+    document.querySelectorAll(".b-svg").forEach(function(ele){
+      ele.style.display = "block"
+    });
 
-function func1() {
-  new Vivus('b2', {
-    duration: 500,
+    new Vivus('b1', {
+    duration: 400,
     type: 'oneByOne',
-    file: "exported-svgs/1.svg"
-  }, func2);
+    file: "exported-svgs/dear.svg"
+    }, func1);
 }
 
-function func2() {
-  new Vivus('b3', {
-    duration: 500,
-    type: 'oneByOne',
-    file: "exported-svgs/2.svg"
-  });
-}
+  function func1() {
+    new Vivus('b2', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/1.svg"
+    }, func2);
+  }
+
+  function func2() {
+    new Vivus('b3', {
+      duration: 500,
+      type: 'oneByOne',
+      file: "exported-svgs/2.svg"
+    });
+  }
+
+  startLetter();
+})();
