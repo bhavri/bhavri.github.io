@@ -110,6 +110,8 @@
       type: 'oneByOne',
       file: "exported-svgs/p4.svg"
     }, func13);
+    
+    window.scrollTo(0,document.body.scrollHeight);
   }
 
   function func13() {
@@ -118,6 +120,8 @@
       type: 'oneByOne',
       file: "exported-svgs/p5.svg"
     }, func14);
+    
+    window.scrollTo(0,document.body.scrollHeight);
   }
 
   function func14() {
@@ -126,6 +130,8 @@
       type: 'oneByOne',
       file: "exported-svgs/p6.svg"
     }, func15);
+    
+    window.scrollTo(0,document.body.scrollHeight);
   }
 
   function func15() {
